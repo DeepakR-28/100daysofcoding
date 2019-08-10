@@ -9,8 +9,11 @@ Example output
 7.5
 
 ```
-
+```
+Code
 b = int(input())
 h = int(input())
 area = 1/2 * b * h  //areaoftraingle
 print (area)
+
+```
