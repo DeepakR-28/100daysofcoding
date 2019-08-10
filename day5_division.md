@@ -12,13 +12,11 @@ Example output
 ```
 
 ```
-## Code
-```
-
+Code
 n = int(input())
 k = int(input())
    
 print(k // n)   # example of integer division
 print(k % n)    # example of remainder calculation 
 ```
-```
+
