@@ -16,17 +16,13 @@ Example output
 
 ```
 Source Code
-
-num = int(input())
 alist = []
-alist.append(int(input()))
-sorted(alist)
-i = 0
-maximum = alist[0]
-while(i>=len(alist)-1):
-  if(alist[i+1]>alist[i]):
-    maximum = alist[i+1]
-  else:
-    i = i+1
-print (maximum)
+flag = 1
+while(flag):
+  num = int(input())
+  alist.append(num)
+  if(num == 0):
+    break
+  alist.sort(reverse = True)
+print(alist[1])
 ```
